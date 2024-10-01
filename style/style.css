@@ -1,5 +1,5 @@
 body {
-	font-family: Inter, sans-serif;
+	font-family: 'Inter', sans-serif;
 	background-color: #0c141d;
 	color: #fff;
 	margin: 0;
@@ -164,6 +164,15 @@ body {
 	border-radius: 10px;
 }
 
+@media (max-width: 1440px) {
+	.hero h1 {
+		font-size: 34px;
+	}
+	.hero p {
+		font-size: 17px;
+	}
+}
+
 @media (max-width: 1200px) {
 	.hero h1 {
 		font-size: 32px;
@@ -224,4 +233,19 @@ body {
 		flex-direction: column;
 		align-items: center;
 	}
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #2c2f3e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
 }

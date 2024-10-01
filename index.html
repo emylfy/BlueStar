@@ -6,11 +6,13 @@
 		<title>Кухни BlueStar</title>
 		<link rel="stylesheet" href="/style/style.css" />
 		<script defer src="./scripts/script.js"></script>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
 			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper/swiper-bundle.min.css"
 		/>
 	</head>
 	<body>
@@ -35,73 +37,80 @@
 		</section>
 		<section id="categories" class="categories">
 			<h2>По категориям</h2>
-			<div class="category-list">
-				<div class="category-item">
-					<img src="/media/categories/fridge.png" alt="Холодильники" />
-					<p>Холодильники</p>
-				</div>
-				<div class="category-item">
-					<img src="/media/categories/accessories.png" alt="Принадлежности" />
-					<p>Принадлежности</p>
-				</div>
-				<div class="category-item">
-					<img src="/media/categories/cooking.png" alt="Кулинария" />
-					<p>Кулинария</p>
-				</div>
-				<div class="category-item">
-					<img src="/media/categories/dishwasher.png" alt="Посудомойки" />
-					<p>Посудомойки</p>
-				</div>
-				<div class="category-item">
-					<img src="/media/categories/hoods.png" alt="Вытяжки" />
-					<p>Вытяжки</p>
-				</div>
-				<div class="category-item">
-					<img src="/media/categories/microwave.png" alt="Микроволновки" />
-					<p>Микроволновки</p>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide category-item">
+						<img src="/media/categories/fridge.png" alt="Холодильники" />
+						<p>Холодильники</p>
+					</div>
+					<div class="swiper-slide category-item">
+						<img src="/media/categories/accessories.png" alt="Принадлежности" />
+						<p>Принадлежности</p>
+					</div>
+					<div class="swiper-slide category-item">
+						<img src="/media/categories/cooking.png" alt="Кулинария" />
+						<p>Кулинария</p>
+					</div>
+					<div class="swiper-slide category-item">
+						<img src="/media/categories/dishwasher.png" alt="Посудомойки" />
+						<p>Посудомойки</p>
+					</div>
+					<div class="swiper-slide category-item">
+						<img src="/media/categories/hoods.png" alt="Вытяжки" />
+						<p>Вытяжки</p>
+					</div>
+					<div class="swiper-slide category-item">
+						<img src="/media/categories/microwave.png" alt="Микроволновки" />
+						<p>Микроволновки</p>
+					</div>
 				</div>
 			</div>
 		</section>
 		<section id="about" class="about">
 			<div class="image-container">
-        <img src="/media/about/our-story.png" alt="О нас" />
-        <div class="centered-text">
-            <h2>Наша история</h2>
-            <p>Ваша мечта - наша кухня</p>
-        </div>
-					<div class="about-details">
-						<div class="detail">
-							<h3>Обзор компании</h3>
-							<p>Мы создаем кухни с учетом всех современных стандартов.</p>
-						</div>
-						<div class="detail">
-							<h3>Местоположение</h3>
-							<p>Россия, Санкт-Петербург</p>
-						</div>
-					</div>
+				<img src="/media/about/our-story.png" alt="О нас" />
+				<div class="centered-text">
+					<h2>Наша история</h2>
+					<p>Ваша мечта - наша кухня</p>
 				</div>
+			</div>
+			<div class="about-details">
+				<div class="detail">
+					<h3>Обзор компании</h3>
+					<p>Мы создаем кухни с учетом всех современных стандартов.</p>
+				</div>
+				<div class="detail">
+					<h3>Местоположение</h3>
+					<p>Россия, Санкт-Петербург</p>
+				</div>
+			</div>
 			</div>
 		</section>
 		<section id="portfolio" class="works">
 			<h2>Наши работы</h2>
-			<div class="work-gallery">
-				<div class="work-item">
-					<img src="/media/portfolio/portfolio1.png" alt="Современная кухня" />
-				</div>
-				<div class="work-item">
-					<img
-						src="/media/portfolio/portfolio2.png"
-						alt="В деревенском стиле"
-					/>
-				</div>
-				<div class="work-item">
-					<img src="/media/portfolio/portfolio3.png" alt="Минималистичная" />
-				</div>
-				<div class="work-item">
-					<img src="/media/portfolio/portfolio4.png" alt="Уютная" />
-				</div>
-				<div class="work-item">
-					<img src="/media/portfolio/portfolio5.png" alt="Скандинаская" />
+			<div class="swiper-container work-gallery">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide work-item">
+						<img
+							src="/media/portfolio/portfolio1.png"
+							alt="Современная кухня"
+						/>
+					</div>
+					<div class="swiper-slide work-item">
+						<img
+							src="/media/portfolio/portfolio2.png"
+							alt="В деревенском стиле"
+						/>
+					</div>
+					<div class="swiper-slide work-item">
+						<img src="/media/portfolio/portfolio3.png" alt="Минималистичная" />
+					</div>
+					<div class="swiper-slide work-item">
+						<img src="/media/portfolio/portfolio4.png" alt="Уютная" />
+					</div>
+					<div class="swiper-slide work-item">
+						<img src="/media/portfolio/portfolio5.png" alt="Скандинаская" />
+					</div>
 				</div>
 			</div>
 		</section>
@@ -144,5 +153,6 @@
 			</section>
 			<p>© 2024 BlueStar. Все права защищены. 💙</p>
 		</footer>
+		<script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	</body>
 </html>
